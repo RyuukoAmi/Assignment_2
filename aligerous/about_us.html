@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,900&family=Roboto+Mono:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Aligerous</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar with logo and dropdown -->
+    <nav>
+        <div class="nav_grid container ">
+            <div><a href="main.html"><img src="..//resources/aligrous_logo.png"
+                        alt="..//resources/aligrous_logo_notext.png" class="nav_logo"></a></div>
+
+            <ul>
+                <li class="dropdown"><a href="javascript:void(0)" class="nav_drop_btn">Projects</a>
+                    <div class="nav_drop_cont">
+                        <a href="solos.html">SoloS</a>
+                        <!-- <br>
+                        <a href="solos.html">Tactical Turbine Legend</a> -->
+                    </div>
+
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="dropdown">
+                    <a href="about_us.html" class="nav_drop_btn" id="active">Aligerous</a>
+                    <div class="nav_drop_cont">
+                        <a href="about_us.html#team">Meet the Team</a>
+                        <br>
+                        <a href="about_us.html#contact">Contact Us</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero banner -->
+        <div class=" hero hero_small solos_hero_img">
+            <div class="container wrapper hero_grid ">
+                <div>
+                    <h1>Aligerous</h1>
+                    <h2>A labour of love combined with years of technical know-how</h2>
+                </div>
+                <div>
+                    <!--this is an empty divv for easy spacinggg -->
+                </div>
+            </div>
+        </div>
+        <div class=" sec_head">
+            <h1 id="team" class="container">Meet the Team</h1>
+        </div>
+        <div class=" container content left_grid">
+            <div class="grid_img">
+                <img class="performance_box" src="../resources/Shane.jpg" alt="">
+            </div>
+
+            <div class="right_text">
+                <h1>Shane Daly</h1>
+                <p class="indent">President & Founder of Innovative Wings, Shane is a SAIT aviation engineering graduate
+                    with a beautiful wife and two wonderful girls.<br><br>
+                    He is a pilot with a passion for all things flying. When he is not at work, you may see him around
+                    the RC fields.</p>
+                <br>
+            </div>
+        </div>
+        <div class=" sec_head">
+            <h1 class="container">Contact Us</h1>
+        </div>
+        <div class="form">
+            <div id="contact">
+                <form>
+                    <label for="name">Name:</label><br>
+                    <textarea cols="50"></textarea><br>
+                    <label for="email">Email:</label><br>
+                    <textarea cols="50"></textarea><br>
+                    <label for="email">How can we help?</label><br>
+                    <textarea rows="10" cols="50"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <!-- Footer Content -->
+    <footer class="wrapper">
+        <div class=" container footer_grid_parent">
+            <p> © 2022 Copywrite Ava Daly, Innovative Wings inc. & Aligerous Aviation. <br>All Rights Reserved</p>
+            <ul class="footer_ul">
+                <li><a href="about_us.html#contact">Contact Us</a></li>
+                <li><a href="https://www.innovativewings.com/">Parent Company</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

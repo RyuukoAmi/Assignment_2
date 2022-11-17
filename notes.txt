@@ -1,0 +1,2 @@
+linking to spesific part of pages
+https://www.w3schools.com/html/html_id.asp
